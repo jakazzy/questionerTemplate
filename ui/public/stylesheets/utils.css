@@ -10,7 +10,7 @@
     display: block;
     height: 30px;
     /* border styles */
-    border: 1px solid #daa33e;
+    border: 1px solid #3B5998;
     border-radius: 5px;
     /* margin and padding */
     padding-top: 8px;
@@ -18,11 +18,5 @@
     /* text styles */
     text-decoration: none;
     text-align: center;
-    color: blue;
     /* background styles */
-}
-
-.btn-lg:hover {
-    background-color: rgba(0, 119, 255, 0.753);
-    color: white;
 }
