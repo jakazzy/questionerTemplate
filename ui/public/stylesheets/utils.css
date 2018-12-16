@@ -1,0 +1,22 @@
+.link {
+    color: #daa33e;
+    font-size: 15px;
+    margin-right: 15px;
+    text-align: right;
+}
+
+.btn-lg {
+    /* display and size */
+    display: block;
+    height: 30px;
+    /* border styles */
+    border: 1px solid #3B5998;
+    border-radius: 5px;
+    /* margin and padding */
+    padding-top: 8px;
+    margin-bottom: 10px;
+    /* text styles */
+    text-decoration: none;
+    text-align: center;
+    /* background styles */
+}

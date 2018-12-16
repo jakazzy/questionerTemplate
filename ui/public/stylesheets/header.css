@@ -1,0 +1,90 @@
+        body {
+            margin: 0;
+            font-family: sans-serif;
+            background-color: #efefef;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0%;
+        }
+        
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+        }
+        
+        #container {
+            display: flex;
+            height: 80px;
+            width: 100%;
+            align-items: center;
+        }
+        
+        .menu-item {
+            flex-basis: 20%;
+        }
+        
+        #search {
+            max-width: 60%;
+            padding: 0 10% 0 10%;
+        }
+        
+        #create-meetup,
+        #scout,
+        #signup {
+            max-width: 10%;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        #logo {
+            font-family: 'Segoe UI';
+        }
+        
+        #hero {
+            /* sizing */
+            height: 80vh;
+            width: 100vw;
+            /* Background styling */
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/event.jpg');
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+            /* Flex box */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* text styling */
+            text-align: center;
+            color: white;
+        }
+        
+        #hero-inner h1 {
+            font-size: 3em;
+            /* margins */
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        
+        #hero-inner .button {
+            /* display and size */
+            display: block;
+            width: 100px;
+            /* border styles */
+            border: 1px solid #daa33e;
+            border-radius: 5px;
+            /* margin and padding */
+            padding: 10px;
+            margin: 50px auto 0 auto;
+            /* text styles */
+            text-decoration: none;
+            color: white;
+            font-size: 1.5em;
+            /* background styles */
+            background-color: transparent;
+        }
+        
+        #hero-inner .button:hover {
+            background-color: #daa33e;
+        }
