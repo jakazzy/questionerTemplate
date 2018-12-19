@@ -1,0 +1,84 @@
+.row-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: minmax(150px, auto);
+    grid-gap: 1em;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.card-1#profile-image {
+    display: grid;
+    background-color: white;
+    /* grid-row: 1/3; */
+    /* padding: 0 100px; */
+}
+
+#sub-container {
+    background-color: white;
+    grid-column: 2/5;
+    display: grid;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+#like,
+#reply {
+    margin: 0 0px;
+}
+
+.card-1 {
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 2px solid #dcdcdc;
+    border-radius: 20px;
+}
+
+#questions-commented {
+    background-color: green;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#event-feed1 {
+    background-color: tomato;
+    /* grid-column: 2/5; */
+}
+
+#event-feed2 {
+    background-color: brown;
+    /* grid-column: 2/5; */
+}
+
+#event-feed3 {
+    background-color: yellow;
+}
+
+#event-feed4 {
+    background-color: purple;
+    /* grid-column: 2/5; */
+}
+
+#event-feed5 {
+    background-color: pink;
+}
+
+.nested-container {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+
+/* #questions-commented-posted-container {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+} */
+
+#profile-avatar {
+    justify-self: center;
+    align-self: center;
+}
