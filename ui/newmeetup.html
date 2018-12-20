@@ -1,0 +1,95 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="public/stylesheets/header.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="public/stylesheets/meetup.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="public/stylesheets/form.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="public/stylesheets/utils.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- <script src="main.js"></script> -->
+    <!-- internal css -->
+
+</head>
+
+<body>
+    <!-- Nav-bar -->
+    <header>
+        <nav>
+            <ul>
+                <div id="container">
+
+                    <li class="menu-item">
+                        <a href="../index.html" id="logo">Questioner</a>
+                    </li>
+                    <li class="menu-item" id="search">
+                        <input type="text" size="40" class="search-input" placeholder="search...">
+                    </li>
+
+                    <li class="menu-item" id="create-meetup"><a href="newmeetup.html">create meetup</a></li>
+                    <li class="menu-item" id="scout"><a href="#">scout </a></li>
+                    <li class="menu-item" id="signup"><a href="signup.html">signup</a></li>
+
+
+            </ul>
+        </nav>
+    </header>
+    <!-- End of Nav-bar -->
+    <div id="form-container">
+        <div></div>
+        <!-- meetup form -->
+        <div id="new-meetup-form">
+            <form>
+                <div class="form-item">
+                    <h2 class="form-title">create meetup</h2>
+                </div>
+                <div class="form-item">
+                    <input type="text" size="50px" name="meetup-name" placeholder="Meetup name">
+                </div>
+
+
+                <div class="form-item">
+                    <input type="text" size="50px" name="meetup-location" placeholder="Location address">
+                </div>
+
+                <div class="form-item">
+                    <input type="text" size="50px" name="meetup-city" placeholder="City">
+                </div>
+
+                <div class="form-item">
+                    <textarea name="description" placeholder="Description"></textarea>
+                </div>
+
+                <div class="form-item">
+                    <label>Starts</label>
+                </div>
+
+                <div class="form-item">
+                    <input type="date" name="start-date">
+                    <input type="time" name="start-time">
+                </div>
+                <div class="form-item">
+                    <label>Ends</label>
+                </div>
+                <div class="form-item">
+                    <input type="date" name="end-date">
+                    <input type="time" name="end-time">
+                </div>
+                <div class="form-item">
+                    <button id="submit-btn" type="submit">create</button>
+                </div>
+
+            </form>
+        </div>
+        <!-- end of meetup form -->
+        <div></div>
+    </div>
+
+</body>
+
+</html>
