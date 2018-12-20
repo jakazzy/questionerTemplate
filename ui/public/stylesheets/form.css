@@ -1,3 +1,7 @@
+body {
+    background-color: rgba(63, 63, 70, 0.336);
+}
+
 .row {
     margin: 20px;
     display: flex;
@@ -79,4 +83,63 @@ input[type="password"]:focus {
     font-size: 20px;
     font-family: sans-serif;
     color: white;
+}
+
+
+/* styles for newmeetup */
+
+#form-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-auto-rows: minmax(200px, auto);
+}
+
+#new-meetup-form {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.form-item {
+    /* width: 50px; */
+    padding: 5px 10px;
+    margin: 10px;
+}
+
+.form-item input[type="text"],
+.form-item input[type="date"],
+.form-item input[type="time"],
+.form-item textarea {
+    font-size: 16px;
+    padding: 9px 12px;
+    line-height: 24px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-item input[type="date"],
+.form-item input[type="time"] {
+    width: 40%;
+}
+
+.form-item textarea {
+    resize: none;
+    height: 150px;
+}
+
+.form-title {
+    text-transform: capitalize;
+    margin: 0;
+}
+
+#submit-btn {
+    background-color: #00bcdf;
+    padding: 10px;
+    line-height: 16px;
+    width: 150px;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    cursor: hand;
 }
