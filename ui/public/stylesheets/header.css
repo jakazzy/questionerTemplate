@@ -1,0 +1,120 @@
+        body {
+            margin: 0;
+            font-family: "Quicksand", "Lato", sans-serif;
+            /* background-color: #efefef; */
+        }
+        
+        header nav {
+            background-color: #fff;
+            ;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0%;
+        }
+        
+        nav ul li a {
+            color: #087584;
+            text-decoration: none;
+            font-size: 1.1 rem;
+            text-transform: capitalize;
+        }
+        
+        #container {
+            display: flex;
+            height: 80px;
+            width: 100%;
+            align-items: center;
+        }
+        
+        #logo {
+            font-size: 30px;
+        }
+        
+        .menu-item {
+            flex-basis: 20%;
+        }
+        
+        #search {
+            max-width: 60%;
+            padding: 0 10% 0 10%;
+        }
+        
+        #search input[type="text"] {
+            font-size: 14px;
+            padding: 5px 12px;
+            line-height: 24px;
+            border: 1px solid #087584;
+            border-radius: 5px;
+            outline: none;
+            font-family: "Quicksand";
+        }
+        
+        #create-meetup,
+        #scout,
+        #signup {
+            max-width: 10%;
+            text-align: center;
+            padding: 20px;
+        }
+        /* Styling for the hero on the index page */
+        
+        #hero {
+            /* sizing */
+            height: 80vh;
+            width: 100vw;
+            /* Background styling */
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/event.jpg');
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+            /* Flex box */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* text styling */
+            text-align: center;
+            color: white;
+        }
+        
+        #hero-inner h1 {
+            font-size: 3em;
+            /* margins */
+            margin-top: 0;
+            margin-bottom: 0;
+            font-weight: 400;
+        }
+        
+        #hero-inner h2,
+        #hero-inner p {
+            font-weight: lighter;
+        }
+        
+        #hero-inner p {
+            font-size: 20px;
+        }
+        
+        .button {
+            /* display and size */
+            display: block;
+            width: 150px;
+            /* border styles */
+            border: 1px solid #087584;
+            border-radius: 5px;
+            /* margin and padding */
+            padding: 10px;
+            margin: 50px auto 0 auto;
+            /* text styles */
+            text-decoration: none;
+            color: white;
+            font-size: 1.5em;
+            /* background styles */
+            background-color: #087584;
+            font-weight: bold;
+        }
+        
+        .button:hover {
+            background-color: #00bcdf;
+            border: 1px solid #00bcdf;
+        }
