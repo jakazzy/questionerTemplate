@@ -1,9 +1,6 @@
 body {
-    /* background-color: rgba(63, 63, 70, 0.336); */
+    font-family: font-family: "Quicksand", "Lato", sans-serif;
 }
-
-
-/* #e4e9ed */
 
 .row {
     margin: 20px;
@@ -91,6 +88,15 @@ input[type="password"]:focus {
 
 /* Cascading style sheet  for the for newmeetup */
 
+nav ul #container {
+    border-bottom: 1px solid #087584;
+    padding: 0 30px;
+}
+
+nav ul {
+    padding: 0;
+}
+
 #form-container {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -117,8 +123,10 @@ input[type="password"]:focus {
     padding: 9px 12px;
     line-height: 24px;
     width: 100%;
-    border: 1px solid #ddd;
+    border: 1px solid #087584;
     border-radius: 5px;
+    outline: none;
+    font-family: "Quicksand", "Lato", sans-serif;
 }
 
 .form-item input[type="date"],
@@ -134,10 +142,13 @@ input[type="password"]:focus {
 .form-title {
     text-transform: capitalize;
     margin: 0;
+    color: #087584;
+    font-weight: lighter;
+    font-size: 30px;
 }
 
 #btn-primary {
-    background-color: #00bcdf;
+    background-color: #087584;
     padding: 10px;
     line-height: 16px;
     width: 150px;
@@ -145,6 +156,16 @@ input[type="password"]:focus {
     font-size: 16px;
     outline: none;
     cursor: hand;
+    /* border styles */
+    border: 1px solid #087584;
+    border-radius: 5px;
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+
+#btn-primary:hover {
+    background-color: #00bcdf;
+    border: 1px solid #00bcdf;
 }
 
 
@@ -204,9 +225,6 @@ table tr:last-child td:last-child {
     position: relative;
     display: inline-block;
 }
-
-
-/* .dropdown-btn {} */
 
 .dropdown-content {
     position: absolute;
