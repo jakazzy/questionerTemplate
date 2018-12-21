@@ -165,6 +165,11 @@ table#meetup-table {
     /* border-radius: 20px; */
 }
 
+td a {
+    text-decoration: none;
+    color: #000;
+}
+
 td,
 th {
     text-align: left;
