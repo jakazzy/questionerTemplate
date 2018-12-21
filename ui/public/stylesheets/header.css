@@ -1,7 +1,12 @@
         body {
             margin: 0;
-            font-family: sans-serif;
+            font-family: "Quicksand", "Lato", sans-serif;
             /* background-color: #efefef; */
+        }
+        
+        header nav {
+            background-color: #fff;
+            ;
         }
         
         nav ul {
@@ -10,8 +15,10 @@
         }
         
         nav ul li a {
-            color: black;
+            color: #087584;
             text-decoration: none;
+            font-size: 1.1 rem;
+            text-transform: capitalize;
         }
         
         #container {
@@ -19,6 +26,10 @@
             height: 80px;
             width: 100%;
             align-items: center;
+        }
+        
+        #logo {
+            font-size: 30px;
         }
         
         .menu-item {
@@ -30,6 +41,16 @@
             padding: 0 10% 0 10%;
         }
         
+        #search input[type="text"] {
+            font-size: 14px;
+            padding: 5px 12px;
+            line-height: 24px;
+            border: 1px solid #087584;
+            border-radius: 5px;
+            outline: none;
+            font-family: "Quicksand";
+        }
+        
         #create-meetup,
         #scout,
         #signup {
@@ -37,10 +58,7 @@
             text-align: center;
             padding: 20px;
         }
-        
-        #logo {
-            font-family: 'Segoe UI';
-        }
+        /* Styling for the hero on the index page */
         
         #hero {
             /* sizing */
@@ -65,14 +83,24 @@
             /* margins */
             margin-top: 0;
             margin-bottom: 0;
+            font-weight: 400;
         }
         
-        #hero-inner .button {
+        #hero-inner h2,
+        #hero-inner p {
+            font-weight: lighter;
+        }
+        
+        #hero-inner p {
+            font-size: 20px;
+        }
+        
+        .button {
             /* display and size */
             display: block;
-            width: 100px;
+            width: 150px;
             /* border styles */
-            border: 1px solid #daa33e;
+            border: 1px solid #087584;
             border-radius: 5px;
             /* margin and padding */
             padding: 10px;
@@ -82,9 +110,11 @@
             color: white;
             font-size: 1.5em;
             /* background styles */
-            background-color: transparent;
+            background-color: #087584;
+            font-weight: bold;
         }
         
-        #hero-inner .button:hover {
-            background-color: #daa33e;
+        .button:hover {
+            background-color: #00bcdf;
+            border: 1px solid #00bcdf;
         }
