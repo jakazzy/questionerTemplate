@@ -1,5 +1,5 @@
 body {
-    font-family: font-family: "Quicksand", "Lato", sans-serif;
+    font-family: "Quicksand", "Lato", sans-serif;
 }
 
 .row {
@@ -51,10 +51,11 @@ body {
 fieldset {
     padding: 20px;
     margin: 20px 0;
-    border: 1px solid #daa33e;
+    border: 1px solid #087584;
 }
 
 legend {
+    color: #087584;
     font-size: 20px;
     letter-spacing: 0.2em;
 }
@@ -62,18 +63,28 @@ legend {
 input[type="email"],
 input[type="password"] {
     display: block;
+    font-size: 16px;
+    padding: 9px 12px;
+    line-height: 24px;
+    width: 100%;
+    border: 1px solid #087584;
+    border-radius: 2px;
+    outline: none;
+    font-family: "Quicksand", "Lato", sans-serif;
+    margin-bottom: 20px;
+    /* display: block;
     margin-bottom: 20px;
     padding: 10px;
     border: 1px solid #daa33e;
-    border-radius: 2px;
+    border-radius: 2px; */
 }
 
 input[type="email"]:focus {
-    border: 1px solid blue;
+    border: 1px solid #0000ff;
 }
 
 input[type="password"]:focus {
-    border: 1px solid blue;
+    border: 1px solid #0000ff;
 }
 
 #signbutton {
@@ -85,12 +96,20 @@ input[type="password"]:focus {
     color: white;
 }
 
+#signupform h2 {
+    font-family: "Quicksand", "Lato", sans-serif;
+    color: #087584;
+    font-weight: lighter;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
 
 /* Cascading style sheet  for the for newmeetup */
 
 nav ul #container {
     border-bottom: 1px solid #087584;
-    padding: 0 30px;
+    padding: 0 2px;
 }
 
 nav ul {
