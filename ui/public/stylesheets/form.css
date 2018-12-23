@@ -108,7 +108,7 @@ input[type="password"]:focus {
 /* Cascading style sheet  for the for newmeetup */
 
 nav ul #container {
-    border-bottom: 1px solid #087584;
+    border-bottom: 1px solid #ddd;
     padding: 0 2px;
 }
 
@@ -126,6 +126,7 @@ nav ul {
     padding: 15px;
     background-color: #fff;
     border-radius: 10px;
+    margin: 20px;
 }
 
 .form-item {
@@ -142,10 +143,26 @@ nav ul {
     padding: 9px 12px;
     line-height: 24px;
     width: 100%;
-    border: 1px solid #087584;
+    border: 1px solid #ddd;
     border-radius: 5px;
     outline: none;
     font-family: "Quicksand", "Lato", sans-serif;
+}
+
+.form-item input[type="text"]:focus {
+    border: 1px solid #087584;
+}
+
+.form-item input[type="date"]:focus {
+    border: 1px solid #087584;
+}
+
+.form-item input[type="time"]:focus {
+    border: 1px solid #087584;
+}
+
+.form-item textarea:focus {
+    border: 1px solid #087584;
 }
 
 .form-item input[type="date"],
@@ -166,7 +183,7 @@ nav ul {
     font-size: 30px;
 }
 
-#btn-primary {
+.btn-primary {
     background-color: #087584;
     padding: 10px;
     line-height: 16px;
@@ -180,9 +197,11 @@ nav ul {
     border-radius: 5px;
     font-weight: lighter;
     text-transform: capitalize;
+    text-decoration: none;
+    margin-bottom: 10px;
 }
 
-#btn-primary:hover {
+.btn-primary:hover {
     background-color: #00bcdf;
     border: 1px solid #00bcdf;
 }
@@ -199,6 +218,14 @@ nav ul {
 #table-container {
     padding: 20px;
     border-radius: 5px;
+    margin: 40px;
+}
+
+#table-container h2 {
+    color: #087584;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 400;
 }
 
 table#meetup-table {
@@ -224,6 +251,8 @@ th {
     font-size: 18px;
     padding: 18px;
     line-height: 24px;
+    font-weight: lighter;
+    color: #087584;
 }
 
 tbody tr:hover {
@@ -238,6 +267,18 @@ table tr:last-child td:first-child {
 
 table tr:last-child td:last-child {
     border-bottom-right-radius: 10px;
+}
+
+.data {
+    text-align: center;
+}
+
+td {
+    font-weight: lighter;
+}
+
+#new-meetup-button {
+    margin-top: 20px;
 }
 
 .dropdown {
