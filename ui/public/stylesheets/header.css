@@ -45,10 +45,14 @@
             font-size: 14px;
             padding: 5px 12px;
             line-height: 24px;
-            border: 1px solid #087584;
+            border: 1px solid #ddd;
             border-radius: 5px;
             outline: none;
             font-family: "Quicksand";
+        }
+        
+        #search input[type="text"]:focus {
+            border: 1px solid #087584;
         }
         
         #create-meetup,

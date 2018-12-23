@@ -10,8 +10,15 @@
     <link rel="stylesheet" type="text/css" media="screen" href="public/stylesheets/meetup.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="public/stylesheets/form.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="public/stylesheets/utils.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,regular,500,700" rel="stylesheet" />
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            background-color: #ddd;
+        }
+    </style>
     <!-- <script src="main.js"></script> -->
     <!-- internal css -->
 
@@ -46,11 +53,11 @@
         <div></div>
         <div id="table-container" style="background-color: white;">
             <div>
-                <h2>Meetup List</h2>
+                <h2>My Meetups</h2>
             </div>
             <table id="meetup-table">
                 <colgroup>
-                    <col style="width: 60%; background-color: red;">
+                    <col style="width: 60%;">
                     <col span="3">
                 </colgroup>
                 <thead>
@@ -64,14 +71,14 @@
                 <tbody>
                     <tr>
                         <a href="#">
-                            <td><a href="meetup_detail.html">GDG</a></td>
+                            <td><a href="meetup_detail.html">Google Developer Group</a></td>
                         </a>
-                        <td>168</td>
-                        <td> 10</td>
+                        <td class="data">168</td>
+                        <td class="data"> 10</td>
 
                         <td>
                             <div class="dropdown">
-                                <div class="dropdown-btn" onclick="myFunction()">Done <i class="fa fa-ellipsis-v"></i></div>
+                                <div class="dropdown-btn data" onclick="myFunction()">Done <i class="fa fa-ellipsis-v"></i></div>
                             </div>
                             <div id="myDropdown" class="dropdown-content">
                                 <a href="#">Delete meetup</a>
@@ -83,9 +90,11 @@
                 </tbody>
             </table>
             <!-- link for creating a new meetup -->
-            <div><a href="newmeetup.html">Create new meetup</a></div>
             <!-- end of link -->
+            <div id="new-meetup-button"><a class="btn-primary" href="newmeetup.html">new meetup</a></div>
         </div>
+
+
 
         <!-- End of table -->
         <div></div>
