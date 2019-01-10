@@ -60,8 +60,6 @@ legend {
     letter-spacing: 0.2em;
 }
 
-input[type="firstName"],
-input[type="lastName"],
 input[type="email"],
 input[type="password"] {
     display: block;
