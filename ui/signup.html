@@ -27,16 +27,10 @@
             <ul>
                 <div id="container">
 
-                    <li class="menu-item">
+                    <li class="menu-item flex2">
                         <a href="../index.html" id="logo">Questioner</a>
                     </li>
-                    <li class="menu-item" id="search">
-                        <input type="text" size="40" class="search-input" placeholder="search...">
-                    </li>
-
-                    <li class="menu-item" id="create-meetup"><a href="newmeetup.html">create meetup</a></li>
-                    <li class="menu-item" id="scout"><a href="#">scout </a></li>
-                    <li class="menu-item" id="signup"><a href="#">signup</a></li>
+                    <li class="menu-item flex2" id="signup"><a id="link" href="ui/signin.html">signin</a></li>
 
                 </div>
             </ul>
@@ -57,8 +51,11 @@
             <form action="userprofile.html">
                 <fieldset>
                     <legend>OR </legend>
+                    <input type="firstName" size="30" placeholder="First Name" required/>
+                    <input type="lastName" size="30" placeholder="Last Name" required/>
                     <input type="email" size="30" placeholder="Email Address" required/>
                     <input type="password" size="30" placeholder="Password" required/>
+                    <input type="password" size="30" placeholder="Confirm Password" required/>
                     <a href="profile.html"> <button class="btn-primary">submit</button></a>
                 </fieldset>
                 <a class="link" href="signin.html">sign in</a>

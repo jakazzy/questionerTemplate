@@ -1,6 +1,7 @@
         body {
             margin: 0;
             font-family: "Quicksand", "Lato", sans-serif;
+            overflow-x: hidden;
         }
         
         header nav {
@@ -34,6 +35,14 @@
         
         .menu-item {
             flex-basis: 20%;
+        }
+        
+        .flex2 {
+            flex-basis: 90%;
+        }
+        
+        #signup a#link {
+            font-size: 20px;
         }
         
         #search {
